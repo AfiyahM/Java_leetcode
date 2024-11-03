@@ -9,7 +9,7 @@ class Solution {
             String time = timePoints.get(i);
             int h = Integer.parseInt(time.substring(0, 2));
             int m = Integer.parseInt(time.substring(3));
-            minutes[i] = h * 60 + m;
+            minutes[i] = h * 60 + m; 
         }
 
         // sort times in ascending order
